@@ -3,7 +3,7 @@ if(window.location.port !== undefined || window.location.port.length > 0) {
     api += ':' + window.location.port;
 }*/
 // var api = 'http://dosh-explorer.github.io:27175';
-var api = 'http://localhost:18333';
+var api = 'http://54.173.28.15:18333';
 var blockTargetInterval = 120;
 var totalCoinsI = 18446744073709551615;
 var coinUnits = 1000000000000;
